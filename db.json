@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "password": "aaa",
+      "email": "aaa",
+      "username": "aaa",
+      "lastName": "aaa",
+      "firstName": "aaa",
+      "id": 1
+    },
+    {
+      "password": "bbb",
+      "email": "bbb",
+      "username": "bbb",
+      "lastName": "bbb",
+      "firstName": "bbb",
+      "id": 2
+    }
+  ],
+  "messages": [
+    {
+      "string": "Hi",
+      "files": [],
+      "date": "11:30:32 AM",
+      "sender": 2,
+      "receiver": 1,
+      "id": 1
+    },
+    {
+      "string": "How are you?",
+      "files": [],
+      "date": "11:31:19 AM",
+      "sender": 1,
+      "receiver": 2,
+      "id": 2
+    },
+    {
+      "string": "I'm fine, what about you?",
+      "files": [],
+      "date": "11:32:00 AM",
+      "sender": 2,
+      "receiver": 1,
+      "id": 3
+    }
+  ],
+  "notif": [
+    {
+      "date": "11:32:00 AM",
+      "message": "I'm fine, what about you?",
+      "sender": 2,
+      "receiver": 1,
+      "count": 0,
+      "id": 1
+    },
+    {
+      "date": "11:31:19 AM",
+      "message": "How are you?",
+      "sender": 1,
+      "receiver": 2,
+      "count": 0,
+      "id": 2
+    }
+  ]
+}
