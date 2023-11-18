@@ -1,5 +1,6 @@
 import axios from "axios"
-const baseUrl = 'http://localhost:3001/users'
+const baseUrl1 = 'http://localhost:3001/users'
+const baseUrl = 'https://cha-viuu.onrender.com/users'
 
 
 const getContactsOnLogin = async username => {

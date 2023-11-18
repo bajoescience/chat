@@ -21,43 +21,59 @@
     {
       "string": "Hi",
       "files": [],
-      "date": "11:30:32 AM",
+      "date": "7:29:06 PM",
       "sender": 2,
       "receiver": 1,
       "id": 1
     },
     {
-      "string": "How are you?",
+      "string": "How are you Nigga?!!!",
       "files": [],
-      "date": "11:31:19 AM",
+      "date": "7:29:52 PM",
       "sender": 1,
       "receiver": 2,
       "id": 2
     },
     {
-      "string": "I'm fine, what about you?",
+      "string": "How dare you",
       "files": [],
-      "date": "11:32:00 AM",
+      "date": "7:30:19 PM",
       "sender": 2,
       "receiver": 1,
       "id": 3
+    },
+    {
+      "string": "Yeah, I'm talking to you nigga",
+      "files": [],
+      "date": "7:31:17 PM",
+      "sender": 1,
+      "receiver": 2,
+      "id": 4
+    },
+    {
+      "string": "Oii!!",
+      "files": [],
+      "date": "7:34:09 PM",
+      "sender": 1,
+      "receiver": 2,
+      "id": 5
     }
   ],
   "notif": [
     {
-      "date": "11:32:00 AM",
-      "message": "I'm fine, what about you?",
+      "date": "7:30:19 PM",
+      "message": "How dare you",
       "sender": 2,
       "receiver": 1,
       "count": 0,
       "id": 1
     },
     {
-      "date": "11:31:19 AM",
-      "message": "How are you?",
+      "date": "7:34:09 PM",
+      "message": "Oii!!",
       "sender": 1,
       "receiver": 2,
-      "count": 0,
+      "count": 2,
       "id": 2
     }
   ]
