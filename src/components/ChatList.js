@@ -1,10 +1,7 @@
 import { Box, Paper, Stack } from "@mui/material"
-import helper from "../helper/helper"
 import ChatBox from './ChatBox'
 import { useEffect, useState } from "react"
 import notifService from '../services/notif'
-import notif from "../services/notif"
-import { useMatch } from "react-router-dom"
 
 const ChatList = ({contacts, onClick, userState: {user}}) => {
     // These are all the notifs in the database

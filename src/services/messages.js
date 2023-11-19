@@ -1,6 +1,6 @@
 import axios from 'axios'
-const baseUrl = 'https://cha-viuu.onrender.com/messages' 
-const baseUrl1 = 'http://localhost:3001/messages'
+const baseUrl1 = 'https://cha-viuu.onrender.com/messages' 
+const baseUrl = 'http://localhost:3001/messages'
 
 let token = null
 

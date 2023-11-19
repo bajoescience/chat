@@ -5,16 +5,16 @@ import messageService from '../services/messages'
 const ChatBox = ({contact, onClick}) => {
     const current = new Date()
 
-    const date = () => {
-        const newDate = current.toLocaleTimeString()
+    const date = (date) => {
+        const newDate = date || current.toLocaleTimeString()
         const M = newDate.substring(8)
         const bf = newDate[5] === ':' ? newDate.substring(0, 5) : newDate.substring(0, 4)
-        return bf + M
+        return bf + ' ' + M
     }
 
     const capitalize = () => {
-        let firstname = contact.firstName.toUpperCase()
-        let lastname = contact.lastName.toUpperCase()
+        let firstname = contact.firstName//.toUpperCase()
+        let lastname = contact.lastName//.toUpperCase()
 
         return `${firstname} ${lastname}`
     }
@@ -101,7 +101,7 @@ const ChatBox = ({contact, onClick}) => {
                             //TODO: the date of the newest message can be gotten by 
                             // accesing the latest message of the current person object
                             }
-                            {Boolean(contact.notif?.date) ? contact.notif.date : date()}
+                            {Boolean(contact.notif?.date) && date(contact.notif.date)}
                         </Typography>
                     </Box>
                     <Box height={32}>

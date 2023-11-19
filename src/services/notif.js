@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-const baseUrl = 'https://cha-viuu.onrender.com/notif'
-const baseUrl1 = 'http://localhost:3001/notif'
+const baseUrl1 = 'https://cha-viuu.onrender.com/notif'
+const baseUrl = 'http://localhost:3001/notif'
 
 /**
  * notif is in the form

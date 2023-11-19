@@ -21,7 +21,6 @@ const MessageBlock = (props) => {
 
     // Store the messages between the user and contact in state
     const [messages, setMessages] = useState([])
-    console.log(messages);
 
 
     const {contactState, userState: {user}} = useOutletContext()
